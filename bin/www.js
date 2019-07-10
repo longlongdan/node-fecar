@@ -13,7 +13,7 @@ con.once('open', () => {
     console.log("数据库链接成功");
 })
 app.use(ctx => {
-    ctx.body = "Hello Index!"
+    ctx.body = "Hello Index2!"
     //克隆gitlab上面的代码
     console.log(123);
 })
